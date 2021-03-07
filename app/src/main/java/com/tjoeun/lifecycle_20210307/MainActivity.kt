@@ -19,7 +19,7 @@ class MainActivity : BaseActivity() {
     override fun setupEvents() {
         moveToOtherBtn.setOnClickListener {
 
-            val myIntent = Intent(this, OtherActivity::class.java)
+            val myIntent = Intent(mContext, OtherActivity::class.java)
             startActivity(myIntent)
 
         }
